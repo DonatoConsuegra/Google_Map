@@ -84,7 +84,7 @@ public class MainActivity extends FragmentActivity implements OnMapReadyCallback
 
         Log.d(TAG, "onMapReady called");
 
-        // Habilita la capa de MyLocation si tienes los permisos
+        // Habilita la capa de MyLocation
         if (ContextCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION)
                 == PackageManager.PERMISSION_GRANTED) {
             mMap.setMyLocationEnabled(true);
