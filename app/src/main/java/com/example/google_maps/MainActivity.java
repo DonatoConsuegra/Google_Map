@@ -137,7 +137,7 @@ public class MainActivity extends FragmentActivity implements OnMapReadyCallback
     }
 
     private void cargarLugaresTuristicos() {
-        String url = "https://turismoquevedo.com/lugar_turistico/json_getlistadoMapa?lat=" + lat +
+        String url = "https://turismoquevedo.com/lugar_turistico/json_getlistadoMapa?lat=-1.04544038451566&lng=-79.48597144719564&radio=3" + lat +
                 "&lng=" + lng + "&radio=" + radio;
 
         Log.d(TAG, "Cargando lugares turísticos desde: " + url);
